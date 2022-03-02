@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "About";
+    string[] names = { "Hezret", "Tehmin", "Sadiq" };
+}
+
+<ul>
+    @foreach(var item in names)
+            {
+                if(item == "Hezret")
+                {
+                    <li>@item</li>
+                }
+            }
+</ul>
